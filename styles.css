@@ -1,0 +1,523 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.header {
+    background-color: #F5F5DC;
+    height: 3.5em;
+    position: relative;
+}
+
+.logo {
+    margin-left: 1.5vw;
+    position: absolute;
+    top: 25%;
+    max-width: 100%; 
+    height: auto;
+}
+
+.products {
+    font-size: 1.5vw;
+    padding: 0;
+    margin-left: 60%;
+    position: absolute;
+    top: 25%;
+    font-family: Arial;
+    color: #808080;
+}
+
+.materials {
+    font-size: 1.5vw;
+    padding: 0;
+    margin-left: 70%;
+    position: absolute;
+    top: 25%;
+    font-family: Arial;
+    color: #808080;
+}
+
+.header_a {
+    text-decoration: none;
+    color: #808080;
+}
+
+.about_us {
+    font-size: 1.5vw;
+    padding: 0;
+    margin-left: 80%;
+    position: absolute;
+    top: 25%;
+    font-family: Arial;
+    color: #808080;
+}
+
+.сontacts {
+    font-size: 1.5vw;
+    padding: 0;
+    margin-left: 86%;
+    position: absolute;
+    top: 25%;
+    font-family: Arial;
+    color: #808080;
+}
+
+.hero {
+    width: 100%;
+    height: 40vw;
+}
+.simple_img {
+    float: right;
+    width: 30%;
+    margin-right: 10%;
+    margin-top: 9.3%;
+    position: relative;
+}
+
+.div_1{ 
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.h1 {
+    font-size: 4vw;
+    font-weight: 100;
+    font-family: Arial;
+    color: #696969;
+}
+
+.div_2 {
+    position: absolute;
+    font-size: 1.2vw;
+    margin-left: 10%;
+    margin-top: 22%;
+    color: #808080;
+    font-family: Arial;
+}
+.paper {
+    background-color: #D3D3D3;
+    height: 55vw;
+}
+
+.min_images_1 {
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 10%;
+}
+
+.div_5 {
+    position: relative;
+    margin-left: 22%;
+    padding-top: 6.5%;
+    font-size: 1.2vw;
+}
+
+.div_6 {
+    position: relative;
+    margin-left: 22%;
+    margin-top: 0.5%;
+    font-size: 1.1vw;
+    color: #696969;
+}
+
+.min_images_2 {
+    position: absolute;
+    margin-left: 40%;
+    margin-top: -6.5%;
+    width: 10%;
+}
+
+.div_7 {
+    position: relative;
+    margin-left: 52%;
+    margin-top: -4.5%;
+    font-size: 1.2vw;
+}
+
+.div_8 {
+    position: relative;
+    margin-left: 52%;
+    margin-top: 0.5%;
+    font-size: 1.1vw;
+    color: #696969;
+}
+
+.min_images_3 {
+    position: absolute;
+    margin-left: 68.5%;
+    margin-top: -6.5%;
+    width: 10%;
+}
+
+.div_9 {
+    position: relative;
+    margin-left: 80%;
+    margin-top: -4.4%;
+    font-size: 1.2vw;
+}
+
+.div_10 {
+    position: relative;
+    margin-left: 80%;
+    margin-top: 0.5%;
+    font-size: 1.1vw;
+    color: #696969;
+}
+
+.big_images{
+    float: left;
+    width: 45%;
+    margin-left: 15%;
+    margin-top: 9%;
+    position: relative;
+}
+
+.div_3{
+    position: absolute;
+    margin-left: 65%;
+    margin-top: 15%;
+}
+
+.h2 {
+    font-size: 2vw;
+    font-family: Arial;
+    color: #000000;
+}
+
+.div_4{
+    position: absolute;
+    font-size: 1.2vw;
+    margin-left: 65%;
+    margin-top: 21%;
+    color: #808080;
+    font-family: Arial;
+}
+
+.tiles {
+    background-color: white;
+    height: 16vw;
+    /* background-color: blueviolet; */
+}
+
+.images_1_1 {
+    position: relative;
+    width: 15%;
+    margin-top: 5%;
+    margin-left: 13%;
+}
+
+.images_1_2 {
+    position: relative;
+    width: 15%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+
+.images_1_3 {
+    position: relative;
+    width: 15%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+
+.images_1_4 {
+    position: relative;
+    width: 15%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.paragraphs {
+    background-color: white;
+    height: 2vw;
+    /* background-color: red; */
+}
+
+.p_1_1 {
+    position: absolute;
+    width: 15%; 
+    margin-left: 13%;
+    color: #696969;
+    font-size: 1.5vw;
+}
+
+.p_1_2 {
+    position: absolute;
+    width: 15%; 
+    margin-left: 33.3%;
+    color: #696969;
+    font-size: 1.5vw;
+}
+
+.p_1_3 {
+    position: absolute;
+    width: 15%; 
+    margin-left: 53.6%;
+    color: #696969;
+    font-size: 1.5vw;
+}
+
+.p_1_4 {
+    position: relative;
+    width: 15%; 
+    margin-left: 74%;
+    color: #696969;
+    font-size: 1.5vw;
+}
+
+.circulation{
+    background-color: white;
+    height: 1.5vw;
+    /* background-color: black; */
+}
+
+.circulation_1 {
+    position: absolute;
+    width: 8%; 
+    color: #D3D3D3;
+    margin-left: 13%;
+    font-size: 0.8vw;
+}
+
+.circulation_2 {
+    position: absolute;
+    width: 8%; 
+    color: #D3D3D3;
+    margin-left: 33.3%;
+    font-size: 0.8vw;
+}
+
+.circulation_3 {
+    position: absolute;
+    width: 8%; 
+    color: #D3D3D3;
+    margin-left: 53.6%;
+    font-size: 0.8vw;
+}
+
+.circulation_4 {
+    position: absolute;
+    width: 8%; 
+    color: #D3D3D3;
+    margin-left: 74%;
+    font-size: 0.8vw;
+}
+
+.description {
+    background-color: white;
+    height: 8.5vw;
+    /* background-color: rgb(166, 255, 0); */
+}
+
+.description_1 {
+    position: absolute;
+    width: 15%; 
+    color: #808080;
+    margin-left: 13%;
+    font-size: 01.2vw;
+}
+
+.description_2{
+    position: absolute;
+    width: 15%; 
+    color: #808080;
+    margin-left: 33.3%;
+    font-size: 1.2vw;
+}
+
+.description_3{
+    position: absolute;
+    width: 15%; 
+    color: #808080;
+    margin-left: 53.6%;
+    font-size: 1.2vw;
+}
+
+.description_4{
+    position: absolute;
+    width: 15%; 
+    color: #808080;
+    margin-left: 74%;
+    font-size: 1.2vw;
+}
+
+.detailed {
+    background-color: white;
+    height: 7vw;
+}
+
+.detailed_1 {
+    position: absolute;
+    width: 15%; 
+    color: #3701fd;
+    margin-left: 13%;
+    font-size: 1.2vw;
+}
+
+.detailed_2{
+    position: absolute;
+    width: 15%; 
+    color: #3701fd;
+    margin-left: 33.3%;
+    font-size: 1.2vw;
+}
+
+.detailed_3{
+    position: absolute;
+    width: 15%; 
+    color: #3701fd;
+    margin-left: 53.6%;
+    font-size: 1.2vw;
+}
+
+.detailed_4{
+    position: absolute;
+    width: 15%; 
+    color: #3701fd;
+    margin-left: 74%;
+    font-size: 1.2vw;
+}
+
+.detailed_a {
+    text-decoration: none;
+    color: #3701fd;
+}
+
+.company {
+    background-color: #D3D3D3;
+    height: 15vw;
+}
+
+.company_1 {
+    position: absolute;
+    width: 15%; 
+    margin-left: 13%;
+    margin-top: 4%;
+}
+
+.company_2 {
+    position: absolute;
+    width: 15%; 
+    margin-left: 33.3%;
+    margin-top: 4%;
+}
+
+.company_3 {
+    position: absolute;
+    width: 15%; 
+    margin-left: 53.6%;
+    margin-top: 4%;
+}
+
+.company_4 {
+    position: absolute;
+    width: 15%; 
+    margin-left: 74%;
+    margin-top: 4%; 
+}
+
+.sketchbook {
+    position: absolute;
+    margin-top: 0;
+    background-color: white;
+    height: 35vw;
+    width: 100%;
+}
+
+
+.h3 {
+    width: 15%;
+    font-size: 2vw;
+    font-family: Arial;
+    color: #000000;
+    margin-top: 10%;
+    margin-left: 13%;
+}
+
+.simple_p {
+    width: 20%;
+    color: #808080;
+    margin-top: 2%;
+    margin-left: 13%;
+    font-size: 1.2vw;
+    line-height: 170%;
+}
+
+.buy {
+    color: #3701fd;
+    font-size: 1.5vw;
+    border: solid, #3701fd;
+    width: 10%;
+    text-align: center;
+    margin-left: 13%;
+    margin-top: 2%;
+}
+
+.background_images {
+    position: relative;
+    width: 50%;
+    float: right;
+    margin-top: -20%;
+    margin-right: 3%;
+}
+
+.sketchbook_images {
+    position: relative;
+    width: 25%;
+    margin-left: 69.9%;
+    margin-top: -40%;
+}
+
+.footer {
+    position: absolute;
+    background-color: #696969;
+    height: 5vw;
+    width: 100%;
+    margin-top: 34.3vw;
+}
+
+.logo_p {
+    color: white;
+    font-size: 1.5vw;
+    margin-top: 1.8%;
+    margin-left: 5%;
+}
+
+/* .frame_1 {
+    position: absolute;
+    margin-left: 60%;
+    margin-top: -1.5%;
+    width: 1.5%;
+}
+
+.frame_2 {
+    position: relative;
+    margin-left: 65%;
+    margin-top: -2%;
+    width: 1.5%;
+} */
+
+.second_footer {
+    position: absolute;
+    background-color: white;
+    height: 1.8vw;
+    width: 100%;
+    margin-top: 39.3vw;
+}
+
+.sim {
+    text-align: center;
+    color: black;
+    margin-top: 0.5%;
+    width: 10%;
+    margin-left: 45%;
+}
